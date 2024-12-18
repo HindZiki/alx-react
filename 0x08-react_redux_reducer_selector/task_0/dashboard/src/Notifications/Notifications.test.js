@@ -1,3 +1,4 @@
+
 import React from "react";
 import { shallow } from "enzyme";
 import { getLatestNotification } from "../utils/utils";
@@ -195,3 +196,4 @@ it("should call handleHideCrawer when close buton is clicked", () => {
   expect(spy).toBeCalled();
   spy.mockRestore();
 });
+
